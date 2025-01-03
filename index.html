@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><h1>Network</h1></nav>
+    <main>
+        <section id="izq">
+            <div id="profile">
+                <img class="pfp" src="img/pfp.jpg" alt="Profile picture">
+                <h3 id="name">Adrien Desplatz</h3>
+            </div>
+        </section>
+        <section id="der">
+            <h2>Your Feed</h2>
+            <div class="post">
+                <div class="post_info flex">
+                    <h3 class="post_op flex">Linn O.</h3>
+                    <span class="counter1">0</span>
+                    <p>like(s)</p>
+                    <button onclick="megusta(1)">Like</button>
+                </div>
+                <div class="post_content">
+                    <p>Acabo de configurar este nuevo bot de Discord. Cuéntenme qué opinan ustedes. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_info flex">
+                    <h3 class="post_op flex">Lina K.</h3>
+                    <span class="counter2">0</span>
+                    <p>like(s)</p>
+                    <button onclick="megusta(2)">Like</button>
+                </div>
+                <div class="post_content">
+                    <p>Acabo de terminar este <a href="#">nuevo comic</a>. Denle un vistazo.</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_info flex">
+                    <h3 class="post_op flex">Mateo H.</h3>
+                    <span class="counter3">0</span>
+                    <p>like(s)</p>
+                    <button onclick="megusta(3)">Like</button>
+                </div>
+                <div class="post_content">
+                    <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
